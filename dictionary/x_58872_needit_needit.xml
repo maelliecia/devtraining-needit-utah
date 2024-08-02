@@ -24,6 +24,7 @@
                 <element inactive_on_update="false" label="Human Resources 1" sequence="0" value="hr1"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" default="u_requested_for_email" label="Requested for email" mandatory="true" max_length="40" name="u_string_1" type="string"/>
         <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
     </element>
 </database>
